@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #a8c4c4;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+		   .navbar img {
+            width: 40px;
+            height: 40px;
+            margin-left: 20px;
+            border-radius: 5px;
+		}
+        .navbar button {
+            background-color: #cfe2e2;
+            border: none;
+            border-radius: 10px;
+            margin: 0 5px;
+			padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .navbar button:hover {
+            background-color: #b0d1d1;
+        }
+        .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+        }
+        .content img {
+            width: 400px;
+            height: 225px;
+            background-color: #cfe2e2;
+            border-radius: 0px;
+            margin-right: 0px;
+			align-items: center;
+        }
+        .content .description {
+            max-width: 400px;
+        }
+        .content h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+        }
+        .social-links {
+            background-color: #a8c4c4;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .social-links button {
+            background-color: #cfe2e2;
+            border: none;
+            border-radius: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .social-links button:hover {
+            background-color: #b0d1d1;
+        }
+    </style>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body onLoad="MM_preloadImages('ml12.jpeg','ml21.jpeg','pubg1.jpeg','pubg2.jpeg','basket21.jpeg')">
+
+   <div class="navbar">
+        <img src="logo.png.jpeg" alt="Logo" width="44" height="42"> <!-- Logo placeholder -->
+       <div class="navbar"><span style="text-align: right"><a href="index.html">
+       <button>Home</button>
+         </a><a href="index1.html">
+         <button>Profile</button>
+         </a> <a href="index3.html">
+         <!-- Link ke halaman Profile -->
+         <button>Portofolio<span style="text-align: right"></span></button>
+         </a></span>
+         <p style="text-align: right"><span style="text-align: right"><a href="index2.html">
+         <button>Ask Me!</button>
+         <br>
+		 </a>
+         </span></p>
+       </div>
+
+</div>
+
+    <!-- Content -->
+    <div class="content">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+          <tr>
+            <td colspan="7" style="text-align: center; font-size: x-large; font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif;"><p>Mobile Legend</p></td>
+          </tr>
+          <tr>
+            <td style="text-align: right"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('ml1','','ml12.jpeg',1)"><img src="ml1.jpeg" alt="" width="512" height="288" id="ml1"></a></td>
+            <td style="text-align: center"><video width="400" height="225" controls><source src="mlvideo.mp4"> </video></td>
+            <td colspan="3" style="text-align: left"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image21','','ml21.jpeg',1)"><img src="ml2.jpeg" alt="" width="512" height="288" id="Image21"></a></td>
+          </tr>
+          <tr>
+            <td style="text-align: right">&nbsp;</td>
+            <td style="text-align: center">&nbsp;</td>
+            <td colspan="3" style="text-align: left">&nbsp;</td>
+          </tr>
+          <tr>
+            <td style="text-align: right">&nbsp;</td>
+            <td style="text-align: center">&nbsp;</td>
+            <td colspan="3" style="text-align: left">&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="5" style="text-align: center; font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif; font-size: x-large;"><p>PUBG Mobile</p></td>
+            <td colspan="2" style="text-align: left">&nbsp;</td>
+          </tr>
+          <tr>
+            <td style="text-align: right"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('pubg','','pubg1.jpeg',1)"><img src="pubg12.jpeg" alt="" width="768" height="432" id="pubg"></a></td>
+            <td style="text-align: center"><video width="400" height="225" controls><source src="PUBG Video.mp4"></video></td>
+            <td colspan="3" style="text-align: left"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('pubgg','','pubg2.jpeg',1)"><img src="pubg21.jpeg" alt="" width="768" height="432" id="pubgg"></a></td>
+          </tr>
+          <tr>
+            <td style="text-align: right">&nbsp;</td>
+            <td style="text-align: center">&nbsp;</td>
+            <td colspan="3" style="text-align: left">&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="5" style="text-align: center; font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif; font-size: x-large;"><p>Basket<br>
+              <br>
+            </p></td>
+          </tr>
+          <tr>
+            <td style="text-align: right"><img src="basket1.jpeg" width="554" height="311" alt=""/></td>
+            <td style="text-align: center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('basket','','basket21.jpeg',1)"><img src="basket2.jpeg" alt="" width="602" height="338" id="basket"></a></td>
+            <td colspan="3" style="text-align: left"><img src="basket3.jpeg" width="220" height="124" alt=""/></td>
+          </tr>
+          <tr>
+            <td colspan="5" style="text-align: right">&nbsp;</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Social Links -->
+    <div class="social-links">
+        <span style="text-align: left"><a href="https://www.instagram.com/christnaalt/" target="_blank">
+            <button>Instagram</button>
+        </a>
+        <a href="https://api.whatsapp.com/send/?phone=08986883944&text&type=phone_number&app_absent=0" target="_blank">
+            <button>WhatsApp</button>
+        </a>
+        <a href="https://www.tiktok.com/@hammypawn" target="_blank">
+        <button>Tiktok</button>
+		</a>
+		</span>
+
+</div>
+
+</body>
+</html>
